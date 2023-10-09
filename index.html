@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+             *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Black Ops One', cursive;
+        }
+        .back{
+            width: 100%;
+            height: 100px;
+            background: rgb(2,0,36);
+            display: flex;
+            justify-content: space-between;
+            color:white;
+           
+        }
+        
+     
+        ul{
+            list-style-type: none;
+            display: flex;
+            margin-top: 15px;
+            
+
+        }
+        li{
+            margin-right: 20px;
+        }
+        .one{
+            display: flex;
+            width: 100%;
+            height: 600px;
+            font-size: 3px solid white;
+            flex-direction: column;
+            background-image:url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg) ;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            background-attachment: scroll ;
+            justify-content: center;
+        
+        }
+        .one1,.one2{
+            text-align: center;
+            gap: 60px;
+            align-items: center;
+            margin: auto;
+            color: white;
+
+        }
+        button{
+            color: white;
+            font-size: 50px;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+        .to{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 500px;
+        }
+        .to1,.to2,.to3{
+            margin: auto;
+            align-items: center;
+            width: 180px;
+            height: 80px;
+            
+        }
+        .to12{
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+        }
+
+        .to21{
+            display: flex;
+            justify-content: space-between;
+            flex-direction:flex-start;
+            width: 100%;
+            height: 200px;
+        
+
+        }
+        .the {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 900px;
+
+        }
+        .the1{
+            width: 100%;
+            height: 100px;
+            margin: auto;
+            text-align: center;
+
+        }
+        .the2{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            text-align: center;
+            margin: 0 auto;
+            gap: 60px;
+            align-content: space-around;
+        }
+        .a,.b,.c,.d,.e,.f{
+            width: 100px;
+            height: 100px;
+            gap: 50px;
+        }
+        .the img{
+            width: 250px;
+            height: 250px;
+        }
+        .blokc{
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.tanitim{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: 25px;
+}
+.blokc p, .blok3 p, .blok6 p{
+    color: rgb(125, 125, 125);
+}
+.adam{
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.picture{
+    background-color: rgb(130, 130, 123);
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture img{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.t{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.t span{
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+
+    border-radius: 50%;
+    padding: 5px;
+   
+}
+.bloki{
+    background-color: rgb(247, 247, 247);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.blok5 div{
+    width: 330px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+.blokta{
+    background-image: url("https://i.pinimg.com/originals/b3/6b/8c/b36b8cfdf3d9016e2da450e2eb43ed74.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    opacity: 0.6;
+
+
+} 
+.inputlar{
+    padding: 0 100px;
+    display: flex;
+    gap: 20px;
+}
+.inputlar .left{
+    /* background-color: aliceblue; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    height: 70px;
+    width: 600px;
+    border-radius: 10px;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+}
+.blokca{
+    background-color: rgb(164, 180, 195);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.blokca .icon span{
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+}
+.son{
+    display: flex;
+    gap: 40px;
+}
+input , textarea{
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+}
+.hisse .sekil{
+    background-color: beige;
+    width: 100%;
+    height: 65%;
+    
+}
+.sekil img{
+    /* position: sticky;
+    */
+    width: 100%;
+    height: 100%;
+}
+.hisse .tipi{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="back">
+        <div style="display: flex;">
+        
+        <h1 style="margin-top: 1px; color: yellow;">START BOOTSTRAP</h1>
+        </div>
+        <ul>
+            <div style="display: flex;">
+               
+            <li style="margin-top: 4px;">SERVICES</li>
+        
+            </div>
+            <div style="display: flex;">
+               
+            <li style="margin-top: 4px;">PORTFOLIO</li>
+            </div>
+            <div style="display: flex;">
+               
+            <li style="margin-top: 4px;">ABOUT</li>
+            
+            </div>
+            <div style="display: flex;">
+               
+                <li style="margin-top: 4px;">CONTACT</li>
+            
+                </div>
+
+            
+        </ul>
+       
+
+    </nav>
+    <div class="one">
+        <div class="one1">
+            <p>Welcome To Our Studio!</p>
+            <h1>IT'S NICE TO MEET YOU</h1>
+            
+        </div>
+        <div class="one2">
+            <button>TELL ME MORE</button>
+        </div>
+    </div>
+    <div class="to">
+        <div class="to12">
+            <h1>SERVICES</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="to21">
+        
+            <div class="to1">
+                <span class="material-symbols-outlined" style="background-color: orange; width: 100px; height: 100px; border-radius: 50%; font-size: 100px; color: white;">
+                    shopping_cart
+                    </span>
+             <h1>E-Commerce</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                
+
+            </div>
+            <div class="to2">
+                <span class="material-symbols-outlined" style="background-color: orange; width: 100px; height: 100px; border-radius: 50%; font-size: 100px; color: white;">
+                    computer
+                    </span>
+                <h1>Responsive Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="to3">
+                <span class="material-symbols-outlined" style="background-color: orange; width: 100px; height: 100px; border-radius: 50%; font-size: 100px; color: white;">
+                    lock
+                    </span>
+                <h1>Web Security</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="the">
+        <div class="the1">
+            <h1>PORTFOLIO</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="the2">
+            <div class="the21">
+                <div class="a">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/1.jpg">
+                    <h3>Window</h3>
+                    <p>Photography</p>
+                </div>
+                <div class="b">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/2.jpg" >
+                    <h3>Southwest</h3>
+                    <p>Website Design</p>
+                </div>
+                <div class="c">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/3.jpg" >
+                    <h3>Threads</h3>
+                    <p> Illustration</p>
+                
+                </div>
+            </div>
+            <div class="the22">
+                <div class="d">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/4.jpg" >
+                    <h3>Explore</h3>
+                    <p>Graphic Design</p>
+                
+                </div>
+                <div class="e">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/5.jpg" >
+                    <h3>Finish</h3>
+                    <p>Identity</p>
+                
+                </div>
+                <div class="f">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/6.jpg" >
+                    <h3>Lines</h3>
+                    <p>Branding</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="blokc">
+        <div class="head">
+            <h3>OUR AMAZING TEAM</h3>
+            <i style="color: rgb(159, 159, 159);">Lorem ipsum dolor sit amet consectetur.</i>
+        </div>
+        <div class="tanitim">
+            <div class="adam">
+                <div class="picture">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/team/1.jpg" alt="">
+                </div>
+                <div>
+                    <h3>Parveen Anand</h3>
+                    <p>Lead Designer</p>
+                </div>
+                <div class="t">
+                  
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                  
+                </div>
+            </div>
+            <div class="adam">
+                <div class="picture">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/team/2.jpg" alt="">
+                </div>
+                <div>
+                    <h3>Diana Petersen</h3>
+                    <p>Lead Marketer</p>
+                </div>
+                <div class="t">
+                    <span class="material-symbols-outlined">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="adam">
+                <div class="picture">
+                    <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/team/3.jpg">
+                </div>
+                <div>
+                    <h3>Larry Parker</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="t">
+                   
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    <span class="material-symbols-outlined">
+                        favorite
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="metn">
+            <p style="font-size: 20px;padding: 20px 200px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        </div>
+    </section>
+    <section class="bloki">
+        <div>
+            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/microsoft.svg" alt="">
+        </div>
+        <div>
+            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/google.svg" alt="">
+        </div>
+        <div>
+            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/facebook.svg" alt="">
+        </div>
+        <div>
+            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/ibm.svg" alt="">
+        </div>
+    </section>
+    <section class="blokta">
+        <div class="contact">
+            <h3 style="color: aliceblue; font-weight: bold; font-size: 30px;">CONTACT US</h3>
+            <i style="color: rgb(159, 159, 159);">Lorem ipsum dolor sit amet consectetur.</i>
+        </div>
+        <div class="inputlar">
+            <div class="left">
+                <input type="text" placeholder="Your Name*">
+                <input type="text" placeholder="Your Email*">
+                <input type="text" placeholder="Your Phone*">
+            </div>
+            <div class="right">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
+            </div>
+        </div>
+        <button>SEND MESSAGE</button>
+    </section>
+    <section class="blokca">
+        <div>
+            Copyright © Your Website 2023
+        </div>
+        <div class="icon">
+           
+            <span class="material-symbols-outlined">
+                home
+            </span>
+            
+        </div>
+        <div class="son">
+            <div>Privacy Policy</div>
+            <div>Terms of Use</div>
+        </div>
+    </section>
+</div>
+    
+</body>
+</html>
